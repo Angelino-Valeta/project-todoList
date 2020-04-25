@@ -29,11 +29,32 @@ input[type='text']:focus
 }
 input{
     max-width: 400px;
+    border-radius: 6px
 }
 
 
+.list{
+    margin: 34px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li{
+    display: block;
+    padding: 16px;
+    background-color: #352f5b;
+    margin-bottom: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+.list li i.icon{
+    float: right;
+    font-size: 26px;
+    cursor: pointer;
+}
 
 .label{
     text-align: center;
-    margin-bottom: 18px;
+    margin: 18px 0;
 }
