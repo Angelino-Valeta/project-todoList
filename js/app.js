@@ -1,7 +1,7 @@
 
 const addForm = document.querySelector('.add')
 const list = document.querySelector('.todo')
-
+const search = document.querySelector('.search input')
 /*Add item  todo */
 const generateTemplate = todo =>{
     
@@ -36,4 +36,25 @@ list.addEventListener('click', e =>{
     }
 
 })
+
+
+/* Search todo */
+
+const filterTodos = (term) =>{
+    
+    
+
+}
+
+
+//keyup event
+search.addEventListener('keyup', () => {
+
+    const term = search.value.trim()
+
+    filterTodos(term)
+    
+
+})
+
 
