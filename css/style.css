@@ -33,13 +33,13 @@ input{
 }
 
 
-.list{
+.todo{
     margin: 34px 0;
     padding: 0;
     list-style: none;
 }
 
-.list li{
+.todo li{
     display: block;
     padding: 16px;
     background-color: #352f5b;
@@ -48,7 +48,7 @@ input{
     border-radius: 6px;
 }
 
-.list li i.icon{
+.todo li i.icon{
     float: right;
     font-size: 26px;
     cursor: pointer;
