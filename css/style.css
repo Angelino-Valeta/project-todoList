@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color: #352f5b;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+}
+
+.title{
+    font-size: 48px;
+    text-align: center;
+}
+
+input[type='search'],
+input[type='search']:focus,
+input[type='text'],
+input[type='text']:focus
+{
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+    padding: 16px ;
+    font-size: 14px;
+    width: 100%;
+}
+input{
+    max-width: 400px;
+}
+
+
+
+.label{
+    text-align: center;
+    margin-bottom: 18px;
+}
