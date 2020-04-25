@@ -48,7 +48,7 @@ input{
     border-radius: 6px;
 }
 
-.todo li i.icon{
+.todo li i.delete{
     float: right;
     font-size: 26px;
     cursor: pointer;
